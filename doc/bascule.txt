@@ -1,0 +1,152 @@
+overline{Q}=overline{Q cdot overline{R}}
+Q=overline{overline{Q} cdot overline{S}}
+
+overline{Q}=overline{(overline{overline{Q} cdot overline{S}}) cdot overline{R}} newline
+overline{Q}=overline{(overline{overline{Q}} + overline{overline{S}}) cdot overline{R}} newline
+overline{Q}=overline{(Q + S) cdot overline{R}} newline
+overline{Q}=overline{Q cdot overline{R} + S cdot overline{R}} newline
+overline{Q}=overline{(Q cdot overline{R}) + (S cdot overline{R})} newline
+overline{Q}=overline{(Q cdot overline{R})} cdot overline{(S cdot overline{R})} newline
+overline{Q}=(overline{Q} + overline{overline{R}}) cdot (overline{S} + overline{overline{R}}) newline
+overline{Q}=(overline{Q} + R) cdot (overline{S} + R) newline
+overline{Q}=(overline{Q} + R) cdot (overline{S} + R) newline
+overline{Q}=overline{Q} cdot overline{S}+overline{Q} cdot R+R cdot overline{S} +R cdot R newline
+overline{Q}=overline{Q} cdot overline{S}+overline{Q} cdot R+R cdot overline{S} +1 cdot R newline
+overline{Q}=overline{Q} cdot overline{S}+R cdot (overline{Q}+overline{S}+1) newline
+overline{Q}=overline{Q} cdot overline{S}+R
+
+Q=overline{overline{(Q cdot overline{R})} cdot overline{S}} newline
+Q=overline{(overline{Q} + overline {overline{R}}) cdot overline{S}} newline
+Q=overline{(overline{Q} + R) cdot overline{S}} newline
+Q=overline{overline{Q} cdot overline{S} + R cdot overline{S}} newline
+Q=overline{(overline{Q} cdot overline{S})+(R cdot overline{S})} newline
+Q=overline{(overline{Q} cdot overline{S})} cdot overline{(R cdot overline{S})} newline
+Q=(overline{overline{Q}} + overline{overline{S}}) cdot (overline{R} + overline{overline{S}}) newline
+Q=(Q + S) cdot (overline{R} + S) newline
+Q=(Q + S) cdot (overline{R} + S) newline
+Q=Q cdot overline{R}+Q cdot S+S cdot overline{R}+S cdot S newline
+Q=Q cdot overline{R}+S cdot Q+S cdot overline{R}+S cdot 1 newline
+Q=Q cdot overline{R}+S cdot (Q+overline{R}+1) newline
+Q=Q cdot overline{R}+S
+
+
+Q=Q(n-1) cdot overline{R}+S newline
+overline{Q}=overline{Q(n-1)} cdot overline{S}+R
+
+
+****
+
+Q=Q(n-1) cdot overline{R}+S=Q(n-1) cdot overline{R}+overline{overline{S}} newline
+overline{Q}=overline{Q(n-1)} cdot overline{S}+R=overline{Q(n-1)} cdot overline{S}+overline{overline{R}}
+
+Pour   overline{R}=0, overline{S}=0  :
+
+Q=Q(n-1) cdot overline{R}+overline{overline{S}}=Q(n-1) cdot 0+overline{0}=0+1=1 newline
+overline{Q}=overline{Q(n-1)} cdot overline{S}+overline{overline{R}}=overline{Q(n-1)} cdot 0+overline{0}=0+1=1
+
+Pour overline{R}=1, overline{S}=1 :
+
+Q=Q(n-1) cdot overline{R}+overline{overline{S}}=Q(n-1) cdot 1+overline{1}=Q(n-1)+0=Q(n-1) newline
+overline{Q}=overline{Q(n-1)} cdot overline{S}+overline{overline{R}}=overline{Q(n-1)} cdot 1+overline{1}=overline{Q(n-1)}+0=overline{Q(n-1)}
+
+Pour overline{R}=0, overline{S}=1 :
+
+Q=Q(n-1) cdot overline{R}+overline{overline{S}}=Q(n-1) cdot 0+overline{1}=0+0=0 newline
+overline{Q}=overline{Q(n-1)} cdot overline{S}+overline{overline{R}}=overline{Q(n-1)} cdot 1+overline{0}=overline{Q(n-1)}+1=1
+
+Pour overline{R}=1, overline{S}=0  :
+
+Q=Q(n-1) cdot overline{R}+overline{overline{S}}=Q(n-1) cdot 1+overline{0}=Q(n-1)+1=1 newline
+overline{Q}=overline{Q(n-1)} cdot overline{S}+overline{overline{R}}=overline{Q(n-1)} cdot 0+overline{1}=0+0=0
+
+
+----------------
+
+Q=Q(n-1) cdot overline{R}+S newline
+overline{Q}=overline{Q(n-1)} cdot overline{S}+R
+
+----------------
+
+K=overline{R cdot H}=overline{R}+overline{H} newline
+M=overline{S cdot H}=overline{S}+overline{H}
+
+* Quand H=0 :
+K=overline{R}+overline{0}=overline{R}+1=1 newline
+M=overline{S}+overline{0}=overline{S}+1=1
+Dans la bascule overline{R}overline{S} , quand overline{R} = overline{S} =1 => Q=Q(n-1).
+* Quand H=1 :
+K=overline{R}+overline{1}=overline{R}+0=overline{R} newline
+M=overline{S}+overline{1}=overline{S}+0=overline{S}
+On a une bascule RS.
+
+********
+
+K=overline{R cdot H}=overline{R}+overline{H} newline
+M=overline{S cdot H}=overline{S}+overline{H}
+
+Q=Q cdot overline{R}+overline{overline{S}}=Q cdot K+overline{M} newline
+Q=(Q cdot (overline{R})+overline{H})+overline{(overline{S}+overline{H})} newline
+Q=(Q cdot (overline{R}+overline{H}))+overline{(overline{S cdot H})} newline
+Q=(Q cdot (overline{R}+overline{H}))+(S cdot H)
+
+overline{Q}=overline{Q} cdot overline{S}+overline{overline{R}}=overline{Q} cdot M+overline{K} newline
+overline{Q}=(overline{Q} cdot (overline{S}+overline{H}))+overline{(overline{R}+overline{H})} newline
+overline{Q}=(overline{Q} cdot (overline{S}+overline{H}))+overline{(overline{R cdot H})} newline
+overline{Q}=(overline{Q} cdot (overline{S}+overline{H}))+(R cdot H)
+
+ 
+
+Q=(Q(n-1) cdot (overline{R}+overline{H}))+(S cdot H) newline
+overline{Q}=(overline{Q(n-1)} cdot (overline{S}+overline{H}))+(R cdot H)
+
+ 
+
+    Quand H=0 :
+
+Q=(Q(n-1) cdot (overline{R}+overline{H}))+(S cdot H) newline
+Q=(Q(n-1) cdot (overline{R}+overline{0}))+(S cdot 0) newline
+Q=(Q(n-1) cdot (overline{R}+1))+0 newline
+Q=(Q(n-1) cdot 1)+0=Q(n-1)+0=Q(n-1)
+
+overline{Q}=(overline{Q(n-1)} cdot (overline{S}+overline{H}))+(R cdot H) newline
+overline{Q}=(overline{Q(n-1)} cdot (overline{S}+overline{0}))+(R cdot 0) newline
+overline{Q}=(overline{Q(n-1)} cdot (overline{S}+1))+0 newline
+overline{Q}=(overline{Q(n-1)} cdot 1)+0=overline{Q(n-1)}+0=overline{Q(n-1)}
+
+ 
+
+    Quand H=1 :
+
+Q=(Q(n-1) cdot (overline{R}+overline{H}))+(S cdot H) newline
+Q=(Q(n-1) cdot (overline{R}+overline{1}))+(S cdot 1) newline
+Q=(Q(n-1) cdot (overline{R}+0))+S newline
+Q=(Q(n-1) cdot overline{R})+S
+
+overline{Q}=(overline{Q(n-1)} cdot (overline{S}+overline{H}))+(R cdot H) newline
+overline{Q}=(overline{Q(n-1)} cdot (overline{S}+overline{1}))+(R cdot 1) newline
+overline{Q}=(overline{Q(n-1)} cdot (overline{S}+0))+R newline
+overline{Q}=(overline{Q(n-1)} cdot overline{S})+R
+ 
+ -------------------
+ 
+Q=(Q(n-1) cdot (overline{R}+overline{H}))+(S cdot H) newline
+overline{Q}=(overline{Q(n-1)} cdot (overline{S}+overline{H}))+(R cdot H) newline
+R=overline{D} newline
+S=D
+
+Q=(Q(n-1) cdot (overline{overline{D}}+overline{H}))+(D cdot H) newline
+Q=(Q(n-1) cdot (D+overline{H}))+(D cdot H) newline
+overline{Q}=(overline{Q(n-1)} cdot (overline{D}+overline{H}))+(overline{D} cdot H)
+
+    Quand H=0 :
+
+Q=(Q(n-1) cdot (D+overline{0}))+(D cdot 0)=(Q(n-1) cdot (D+1))+0=Q(n-1) cdot 1=Q(n-1) newline
+overline{Q}=(overline{Q(n-1)} cdot (overline{D}+overline{0}))+(overline{D} cdot 0)=(overline{Q(n-1)} cdot (overline{D}+1))+0=overline{Q(n-1)} cdot 1=overline{Q(n-1)}
+
+    Quand H=1 :
+
+Q=(Q(n-1) cdot (D+overline{1}))+(D cdot 1)=(Q(n-1) cdot (D+0))+(D cdot 1) newline
+Q=Q(n-1) cdot D+1 cdot D=(Q(n-1)+1) cdot D=1 cdot D=D newline
+overline{Q}=(overline{Q(n-1)} cdot (overline{D}+overline{1}))+(overline{D} cdot 1)=(overline{Q(n-1)} cdot (overline{D}+0))+(overline{D} cdot 1) newline
+overline{Q}=overline{Q(n-1)} cdot overline{D}+1 cdot overline{D}=(overline{Q(n-1)}+1) cdot overline{D}=1 cdot overline{D}=overline{D}
+
