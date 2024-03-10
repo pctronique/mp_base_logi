@@ -206,15 +206,13 @@
     <wire from="(660,290)" to="(660,340)"/>
     <wire from="(670,420)" to="(680,420)"/>
     <wire from="(640,190)" to="(650,190)"/>
-    <comp lib="0" loc="(190,350)" name="Pin">
-      <a name="width" val="8"/>
-      <a name="tristate" val="false"/>
+    <comp lib="0" loc="(390,200)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="right"/>
     </comp>
-    <comp lib="5" loc="(580,510)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(620,510)" name="LED">
+    <comp lib="5" loc="(660,180)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
@@ -223,6 +221,10 @@
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
       <a name="appear" val="right"/>
+    </comp>
+    <comp lib="5" loc="(660,290)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
     </comp>
     <comp lib="0" loc="(610,470)" name="Splitter">
       <a name="facing" val="north"/>
@@ -234,61 +236,52 @@
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
+    <comp lib="5" loc="(620,290)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(600,510)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(720,290)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(640,510)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(480,90)" name="DotMatrix">
+      <a name="inputtype" val="row"/>
+      <a name="matrixcols" val="8"/>
+      <a name="matrixrows" val="4"/>
+    </comp>
     <comp lib="5" loc="(580,400)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
-    <comp lib="0" loc="(390,530)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="appear" val="right"/>
+    <comp lib="5" loc="(600,290)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(700,510)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(660,400)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(400,400)" name="DotMatrix">
+      <a name="matrixcols" val="8"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(620,510)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
     </comp>
     <comp lib="5" loc="(720,510)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(400,510)" name="DotMatrix">
-      <a name="matrixcols" val="8"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="5" loc="(680,180)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(700,290)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="0" loc="(610,580)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp lib="5" loc="(640,400)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="6" loc="(649,145)" name="Text">
-      <a name="text" val="LED Matrix (LEDS)"/>
-    </comp>
-    <comp lib="5" loc="(400,180)" name="DotMatrix">
-      <a name="matrixcols" val="8"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="0" loc="(610,360)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp lib="0" loc="(270,110)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="5" loc="(600,180)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
@@ -296,27 +289,32 @@
       <a name="width" val="8"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="5" loc="(720,290)" name="LED">
+    <comp lib="5" loc="(680,180)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
-    <comp lib="5" loc="(400,290)" name="DotMatrix">
+    <comp lib="5" loc="(720,400)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(210,330)" name="DotMatrix">
+      <a name="matrixcols" val="4"/>
+      <a name="matrixrows" val="8"/>
+    </comp>
+    <comp lib="5" loc="(400,180)" name="DotMatrix">
       <a name="matrixcols" val="8"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(640,290)" name="LED">
+    <comp lib="5" loc="(700,400)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
-    <comp lib="5" loc="(620,290)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="0" loc="(190,390)" name="Pin">
-      <a name="width" val="8"/>
+    <comp lib="0" loc="(270,110)" name="Pin">
+      <a name="width" val="32"/>
       <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="5" loc="(700,510)" name="LED">
+    <comp lib="5" loc="(700,290)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
@@ -326,35 +324,18 @@
       <a name="incoming" val="8"/>
       <a name="appear" val="right"/>
     </comp>
-    <comp lib="0" loc="(390,200)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="appear" val="right"/>
+    <comp lib="5" loc="(400,510)" name="DotMatrix">
+      <a name="matrixcols" val="8"/>
+      <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(600,400)" name="LED">
+    <comp lib="5" loc="(620,180)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
-    <comp lib="0" loc="(190,410)" name="Pin">
-      <a name="width" val="8"/>
-      <a name="tristate" val="false"/>
+    <comp lib="6" loc="(649,145)" name="Text">
+      <a name="text" val="LED Matrix (LEDS)"/>
     </comp>
-    <comp lib="5" loc="(580,180)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="0" loc="(390,420)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp lib="5" loc="(680,400)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(660,510)" name="LED">
+    <comp lib="5" loc="(680,290)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
@@ -362,11 +343,63 @@
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
-    <comp lib="5" loc="(640,510)" name="LED">
+    <comp lib="6" loc="(435,155)" name="Text">
+      <a name="text" val="LED Matrix (line)"/>
+    </comp>
+    <comp lib="5" loc="(640,290)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
-    <comp lib="5" loc="(660,180)" name="LED">
+    <comp lib="0" loc="(190,350)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(400,290)" name="DotMatrix">
+      <a name="matrixcols" val="8"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(580,510)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="6" loc="(519,80)" name="Text">
+      <a name="text" val="LED Matrix"/>
+    </comp>
+    <comp lib="5" loc="(700,180)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(660,510)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(680,510)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(600,180)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(600,400)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="5" loc="(640,400)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#00ff00"/>
+    </comp>
+    <comp lib="0" loc="(190,390)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(610,580)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="right"/>
+    </comp>
+    <comp lib="5" loc="(580,180)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
@@ -405,42 +438,13 @@
       <a name="bit30" val="0"/>
       <a name="bit31" val="0"/>
     </comp>
-    <comp lib="6" loc="(435,155)" name="Text">
-      <a name="text" val="LED Matrix (line)"/>
+    <comp lib="0" loc="(390,420)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="right"/>
     </comp>
-    <comp lib="5" loc="(640,180)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(700,400)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(720,400)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(480,90)" name="DotMatrix">
-      <a name="inputtype" val="row"/>
-      <a name="matrixcols" val="8"/>
-      <a name="matrixrows" val="4"/>
-    </comp>
-    <comp lib="5" loc="(680,290)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="6" loc="(519,80)" name="Text">
-      <a name="text" val="LED Matrix"/>
-    </comp>
-    <comp lib="5" loc="(660,400)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(660,290)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(620,180)" name="LED">
+    <comp lib="5" loc="(680,400)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
@@ -448,29 +452,25 @@
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
-    <comp lib="5" loc="(400,400)" name="DotMatrix">
-      <a name="matrixcols" val="8"/>
-      <a name="matrixrows" val="1"/>
+    <comp lib="0" loc="(390,530)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="right"/>
     </comp>
-    <comp lib="5" loc="(600,510)" name="LED">
+    <comp lib="0" loc="(610,360)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="right"/>
+    </comp>
+    <comp lib="5" loc="(640,180)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#00ff00"/>
     </comp>
-    <comp lib="5" loc="(680,510)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(600,290)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
-    </comp>
-    <comp lib="5" loc="(210,330)" name="DotMatrix">
-      <a name="matrixcols" val="4"/>
-      <a name="matrixrows" val="8"/>
-    </comp>
-    <comp lib="5" loc="(700,180)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#00ff00"/>
+    <comp lib="0" loc="(190,410)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="tristate" val="false"/>
     </comp>
   </circuit>
   <circuit name="main_screen_column">
@@ -577,27 +577,14 @@
     <wire from="(110,380)" to="(120,380)"/>
     <wire from="(110,420)" to="(120,420)"/>
     <wire from="(580,410)" to="(590,410)"/>
-    <comp lib="0" loc="(800,440)" name="Pin">
+    <comp lib="6" loc="(905,524)" name="Text">
+      <a name="text" val="other_chip8_lib.circ"/>
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="0" loc="(90,360)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="H"/>
+      <a name="label" val="E"/>
     </comp>
-    <comp lib="0" loc="(90,380)" name="Pin">
-      <a name="width" val="5"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Y"/>
-    </comp>
-    <comp lib="0" loc="(500,450)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="I"/>
-    </comp>
-    <comp lib="0" loc="(1120,860)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="5" loc="(500,490)" name="Button">
-      <a name="label" val="CL"/>
-    </comp>
-    <comp lib="8" loc="(630,430)" name="L32"/>
     <comp lib="0" loc="(800,400)" name="Pin">
       <a name="width" val="5"/>
       <a name="tristate" val="false"/>
@@ -611,107 +598,120 @@
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="32"/>
     </comp>
-    <comp lib="5" loc="(930,360)" name="DotMatrix">
-      <a name="matrixcols" val="8"/>
-      <a name="matrixrows" val="32"/>
-    </comp>
-    <comp lib="5" loc="(90,440)" name="Button">
-      <a name="label" val="CL"/>
-    </comp>
-    <comp lib="0" loc="(500,410)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="E"/>
-    </comp>
-    <comp lib="6" loc="(542,581)" name="Text">
-      <a name="text" val="other_chip8_lib.circ"/>
-      <a name="font" val="SansSerif bold 20"/>
-    </comp>
-    <comp lib="0" loc="(90,360)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="E"/>
-    </comp>
-    <comp lib="0" loc="(1120,660)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="2" loc="(530,380)" name="Decoder">
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp lib="8" loc="(160,400)" name="L32"/>
-    <comp lib="0" loc="(1120,560)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(500,470)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="H"/>
-    </comp>
+    <comp lib="8" loc="(880,400)" name="LC8"/>
     <comp lib="5" loc="(800,500)" name="Button">
       <a name="label" val="CL"/>
-    </comp>
-    <comp lib="8" loc="(630,510)" name="L32"/>
-    <comp lib="0" loc="(1200,610)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(1200,510)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="6" loc="(205,475)" name="Text">
-      <a name="text" val="other_chip8_lib.circ"/>
-      <a name="font" val="SansSerif bold 20"/>
+    <comp lib="0" loc="(1120,760)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="8" loc="(630,510)" name="L32"/>
+    <comp lib="5" loc="(90,440)" name="Button">
+      <a name="label" val="CL"/>
+    </comp>
+    <comp lib="0" loc="(1120,660)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="5" loc="(1290,360)" name="DotMatrix">
       <a name="matrixcols" val="8"/>
       <a name="matrixrows" val="32"/>
     </comp>
-    <comp lib="6" loc="(905,524)" name="Text">
-      <a name="text" val="other_chip8_lib.circ"/>
-      <a name="font" val="SansSerif bold 20"/>
+    <comp lib="2" loc="(530,380)" name="Decoder">
+      <a name="disabled" val="0"/>
     </comp>
-    <comp lib="0" loc="(500,390)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="X"/>
+    <comp lib="5" loc="(930,360)" name="DotMatrix">
+      <a name="matrixcols" val="8"/>
+      <a name="matrixrows" val="32"/>
     </comp>
-    <comp lib="8" loc="(880,400)" name="LC8"/>
-    <comp lib="0" loc="(500,430)" name="Pin">
-      <a name="width" val="5"/>
+    <comp lib="0" loc="(500,450)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="Y"/>
+      <a name="label" val="I"/>
+    </comp>
+    <comp lib="0" loc="(1200,610)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(800,460)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="E"/>
     </comp>
-    <comp lib="0" loc="(1120,760)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
+    <comp lib="6" loc="(205,475)" name="Text">
+      <a name="text" val="other_chip8_lib.circ"/>
+      <a name="font" val="SansSerif bold 20"/>
     </comp>
     <comp lib="0" loc="(800,420)" name="Pin">
       <a name="width" val="3"/>
       <a name="tristate" val="false"/>
       <a name="label" val="X"/>
     </comp>
-    <comp lib="5" loc="(640,360)" name="DotMatrix">
-      <a name="matrixcols" val="2"/>
-      <a name="matrixrows" val="32"/>
+    <comp lib="0" loc="(1120,860)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(90,420)" name="Pin">
+    <comp lib="0" loc="(500,430)" name="Pin">
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Y"/>
+    </comp>
+    <comp lib="0" loc="(90,400)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="I"/>
+    </comp>
+    <comp lib="0" loc="(1120,560)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(800,440)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="H"/>
     </comp>
-    <comp lib="0" loc="(1200,710)" name="Pin">
-      <a name="width" val="32"/>
+    <comp lib="0" loc="(500,410)" name="Pin">
       <a name="tristate" val="false"/>
+      <a name="label" val="E"/>
+    </comp>
+    <comp lib="0" loc="(500,470)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="H"/>
+    </comp>
+    <comp lib="5" loc="(640,360)" name="DotMatrix">
+      <a name="matrixcols" val="2"/>
+      <a name="matrixrows" val="32"/>
     </comp>
     <comp lib="0" loc="(1200,810)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(90,400)" name="Pin">
+    <comp lib="8" loc="(160,400)" name="L32"/>
+    <comp lib="0" loc="(1200,710)" name="Pin">
+      <a name="width" val="32"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="I"/>
+    </comp>
+    <comp lib="0" loc="(500,390)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="X"/>
+    </comp>
+    <comp lib="5" loc="(500,490)" name="Button">
+      <a name="label" val="CL"/>
+    </comp>
+    <comp lib="8" loc="(630,430)" name="L32"/>
+    <comp lib="6" loc="(542,581)" name="Text">
+      <a name="text" val="other_chip8_lib.circ"/>
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="0" loc="(90,380)" name="Pin">
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Y"/>
+    </comp>
+    <comp lib="0" loc="(90,420)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="H"/>
     </comp>
   </circuit>
   <circuit name="main_screen_column_2">
@@ -863,7 +863,17 @@
     <wire from="(460,500)" to="(980,500)"/>
     <wire from="(470,510)" to="(990,510)"/>
     <wire from="(480,520)" to="(1000,520)"/>
-    <comp lib="8" loc="(300,370)" name="LC32"/>
+    <comp lib="5" loc="(200,580)" name="Button">
+      <a name="label" val="CL"/>
+    </comp>
+    <comp lib="5" loc="(410,350)" name="DotMatrix">
+      <a name="matrixcols" val="8"/>
+      <a name="matrixrows" val="32"/>
+    </comp>
+    <comp lib="5" loc="(500,350)" name="DotMatrix">
+      <a name="matrixcols" val="8"/>
+      <a name="matrixrows" val="32"/>
+    </comp>
     <comp lib="5" loc="(320,350)" name="DotMatrix">
       <a name="matrixcols" val="8"/>
       <a name="matrixrows" val="32"/>
@@ -872,46 +882,36 @@
       <a name="matrixcols" val="8"/>
       <a name="matrixrows" val="32"/>
     </comp>
-    <comp lib="6" loc="(279,724)" name="Text">
-      <a name="text" val="other_chip8_lib.circ"/>
-      <a name="font" val="SansSerif bold 20"/>
-    </comp>
-    <comp lib="5" loc="(850,350)" name="DotMatrix">
-      <a name="matrixcols" val="32"/>
-      <a name="matrixrows" val="32"/>
-    </comp>
-    <comp lib="0" loc="(200,540)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="E"/>
-    </comp>
-    <comp lib="5" loc="(410,350)" name="DotMatrix">
-      <a name="matrixcols" val="8"/>
-      <a name="matrixrows" val="32"/>
-    </comp>
-    <comp lib="0" loc="(200,520)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="H"/>
-    </comp>
-    <comp lib="5" loc="(200,580)" name="Button">
-      <a name="label" val="CL"/>
-    </comp>
     <comp lib="0" loc="(200,500)" name="Pin">
       <a name="width" val="5"/>
       <a name="tristate" val="false"/>
       <a name="label" val="X"/>
     </comp>
+    <comp lib="0" loc="(200,520)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="H"/>
+    </comp>
+    <comp lib="5" loc="(850,350)" name="DotMatrix">
+      <a name="matrixcols" val="32"/>
+      <a name="matrixrows" val="32"/>
+    </comp>
+    <comp lib="8" loc="(300,370)" name="LC32"/>
+    <comp lib="6" loc="(279,724)" name="Text">
+      <a name="text" val="other_chip8_lib.circ"/>
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
     <comp lib="0" loc="(200,560)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="I"/>
-    </comp>
-    <comp lib="5" loc="(500,350)" name="DotMatrix">
-      <a name="matrixcols" val="8"/>
-      <a name="matrixrows" val="32"/>
     </comp>
     <comp lib="0" loc="(200,480)" name="Pin">
       <a name="width" val="5"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Y"/>
+    </comp>
+    <comp lib="0" loc="(200,540)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="E"/>
     </comp>
   </circuit>
   <circuit name="main_screen_black">
@@ -1007,6 +1007,12 @@
     <wire from="(1010,400)" to="(1010,560)"/>
     <wire from="(360,390)" to="(360,580)"/>
     <wire from="(280,560)" to="(350,560)"/>
+    <comp lib="7" loc="(30,50)" name="ScreenColor">
+      <a name="facing" val="north"/>
+      <a name="width_column" val="6"/>
+      <a name="width_row" val="5"/>
+      <a name="screen_color" val="screen_color_no"/>
+    </comp>
     <comp lib="6" loc="(791,424)" name="Text">
       <a name="text" val="other_chip8.circ"/>
       <a name="font" val="SansSerif bold 20"/>
@@ -1015,47 +1021,41 @@
       <a name="tristate" val="false"/>
       <a name="label" val="E"/>
     </comp>
+    <comp lib="9" loc="(700,360)" name="LC64">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(280,540)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="H"/>
+    </comp>
     <comp lib="0" loc="(280,500)" name="Pin">
       <a name="width" val="5"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Y"/>
     </comp>
-    <comp lib="0" loc="(280,580)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="I"/>
-    </comp>
-    <comp lib="7" loc="(30,50)" name="ScreenColor">
-      <a name="facing" val="north"/>
-      <a name="width_column" val="6"/>
-      <a name="width_row" val="5"/>
-      <a name="screen_color" val="screen_color_no"/>
-    </comp>
-    <comp lib="0" loc="(280,520)" name="Pin">
-      <a name="width" val="6"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="X"/>
-    </comp>
-    <comp lib="5" loc="(1020,350)" name="DotMatrix">
-      <a name="matrixcols" val="32"/>
-      <a name="matrixrows" val="32"/>
-    </comp>
-    <comp lib="9" loc="(700,360)" name="LC64">
-      <a name="facing" val="north"/>
-    </comp>
     <comp lib="5" loc="(280,600)" name="Button">
       <a name="label" val="CL"/>
-    </comp>
-    <comp lib="6" loc="(74,412)" name="Text">
-      <a name="text" val="Other.jar"/>
-      <a name="font" val="SansSerif bold 20"/>
     </comp>
     <comp lib="5" loc="(700,350)" name="DotMatrix">
       <a name="matrixcols" val="32"/>
       <a name="matrixrows" val="32"/>
     </comp>
-    <comp lib="0" loc="(280,540)" name="Pin">
+    <comp lib="0" loc="(280,580)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="H"/>
+      <a name="label" val="I"/>
+    </comp>
+    <comp lib="5" loc="(1020,350)" name="DotMatrix">
+      <a name="matrixcols" val="32"/>
+      <a name="matrixrows" val="32"/>
+    </comp>
+    <comp lib="6" loc="(74,412)" name="Text">
+      <a name="text" val="Other.jar"/>
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="0" loc="(280,520)" name="Pin">
+      <a name="width" val="6"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X"/>
     </comp>
   </circuit>
   <circuit name="main_image_black">
@@ -1139,34 +1139,103 @@
     <wire from="(360,190)" to="(360,240)"/>
     <wire from="(80,130)" to="(80,190)"/>
     <wire from="(1040,190)" to="(1040,240)"/>
-    <comp lib="0" loc="(1210,100)" name="Probe">
-      <a name="facing" val="west"/>
+    <comp lib="6" loc="(1010,41)" name="Text">
+      <a name="text" val="Other.jar"/>
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="0" loc="(70,70)" name="Probe">
       <a name="radix" val="16"/>
     </comp>
-    <comp lib="7" loc="(730,260)" name="ScreenColor">
-      <a name="facing" val="south"/>
-      <a name="width_column" val="6"/>
-      <a name="width_row" val="5"/>
-      <a name="color" val="#ffffff"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="9" loc="(320,70)" name="IGRB"/>
-    <comp lib="0" loc="(140,130)" name="Constant"/>
     <comp lib="0" loc="(1210,140)" name="Probe">
       <a name="facing" val="west"/>
       <a name="radix" val="10signed"/>
     </comp>
-    <comp lib="6" loc="(95,622)" name="Text">
-      <a name="text" val="Other.jar"/>
+    <comp lib="6" loc="(353,40)" name="Text">
+      <a name="text" val="other_chip8.circ"/>
       <a name="font" val="SansSerif bold 20"/>
     </comp>
     <comp lib="0" loc="(1210,120)" name="Probe">
       <a name="facing" val="west"/>
       <a name="radix" val="10unsigned"/>
     </comp>
-    <comp lib="6" loc="(780,622)" name="Text">
+    <comp lib="6" loc="(95,622)" name="Text">
       <a name="text" val="Other.jar"/>
       <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="4" loc="(920,70)" name="ROM">
+      <a name="addrWidth" val="12"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 12 24
+40 20 121*0 6*ffffff 26*0 ffffff 0 0
+ffffff 28*0 ffffff 0 0 ffffff 17*0 ffffff
+ffffff ffffff 8*0 ffffff 0 0 ffffff 16*0
+6*ffffff 7*0 ffffff ffffff 16*0 ffffff ffffff 0
+0 0 ffffff ffffff ffffff 23*0 ffffff ffffff
+6*0 ffffff ffffff 5*0 4*ffffff 12*0 ffffff ffffff
+8*0 ffffff ffffff 0 0 0 ffffff 4*0
+ffffff 11*0 ffffff 10*0 ffffff 0 0 0
+ffffff 4*0 ffffff 11*0 ffffff 10*0 ffffff 0
+0 0 ffffff 4*0 ffffff 0 0 6*ffffff
+0 0 0 ffffff 10*0 ffffff 4*0 ffffff
+0 0 ffffff 8*0 ffffff 0 0 0
+ffffff ffffff ffffff 6*0 ffffff ffffff ffffff 16*0
+ffffff 4*0 ffffff ffffff 6*0 ffffff ffffff 4*0
+ffffff 12*0 ffffff 18*0 ffffff 12*0 ffffff 0
+0 0 ffffff 10*0 ffffff 0 0 0
+6*ffffff 11*0 12*ffffff 0 0 0 ffffff 7*0
+5*ffffff 4*0 12*ffffff 0 0 0 ffffff 12*0
+ffffff 0 0 0 ffffff 4*0 ffffff 5*0
+ffffff 16*0 ffffff 8*0 ffffff 9*0 6*ffffff 7*0
+ffffff 8*0 ffffff 9*0 ffffff 0 0 ffffff
+4*0 5*ffffff 9*0 ffffff 9*0 ffffff 0 0
+ffffff 18*0 ffffff 9*0 ffffff 0 0 ffffff
+ffffff 0 0 0 6*ffffff 0 0 0
+ffffff 4*0 ffffff 5*0 ffffff 4*0 ffffff ffffff
+0 0 ffffff 0 0 ffffff 4*0 ffffff
+0 0 0 12*ffffff 11*0 ffffff 4*0 ffffff
+0 0 0 12*ffffff 4*0 4*ffffff 0 0
+0 ffffff 4*0 ffffff 0 0 0 ffffff
+10*0 ffffff 0 0 0 ffffff 4*0 ffffff
+0 0 0 4*ffffff 19*0 ffffff 4*0 ffffff
+11*0 ffffff 10*0 ffffff 0 0 0 ffffff
+4*0 ffffff 0 0 0 4*ffffff 4*0 12*ffffff
+4*0 4*ffffff 0 0 0 ffffff 4*0 ffffff
+0 0 0 12*ffffff 11*0 ffffff 4*0 ffffff
+0 0 0 ffffff 10*0 ffffff 0 0
+0 6*ffffff 0 0 ffffff 4*0 ffffff 18*0
+ffffff ffffff 7*0 4*ffffff 4*0 ffffff 10*0 ffffff
+5*0 ffffff ffffff 13*0 12*ffffff 7*0 ffffff ffffff
+0 0 ffffff ffffff 7*0 12*ffffff 0 0
+0 6*ffffff 4*0 ffffff ffffff 5*0 ffffff 4*0
+ffffff 5*0 ffffff 15*0 ffffff ffffff 0 0
+0 ffffff 4*0 ffffff 9*0 ffffff 4*0 ffffff
+4*0 ffffff ffffff 5*0 ffffff 4*0 ffffff 9*0
+6*ffffff 0 0 ffffff ffffff 7*0 ffffff ffffff
+0 0 ffffff ffffff 9*0 ffffff 4*0 ffffff
+12*0 4*ffffff 18*0 ffffff 4*0 ffffff 5*0 ffffff
+ffffff 12*0 4*ffffff 0 0 0 6*ffffff 18*0
+ffffff 4*0 ffffff 0 0 ffffff 4*0 ffffff
+8*0 ffffff ffffff 8*0 ffffff 4*0 ffffff 16*0
+ffffff ffffff 8*0 ffffff 0 0 0 ffffff
+ffffff 0 0 0 4*ffffff 9*0 ffffff ffffff
+9*0 5*ffffff 0 0 ffffff 4*0 ffffff 8*0
+ffffff ffffff 16*0 ffffff 4*0 ffffff 18*0 5*ffffff
+0 0 0 ffffff 4*0 ffffff 5*0 ffffff
+ffffff 0 0 0 ffffff ffffff ffffff 10*0
+ffffff 0 0 0 ffffff 0 0 ffffff
+5*0 4*ffffff 0 5*ffffff 9*0 ffffff 11*0 ffffff
+ffffff 0 0 ffffff ffffff ffffff 0 0
+0 ffffff ffffff 8*0 ffffff 11*0 ffffff 4*0
+ffffff 5*0 ffffff 0 0 0 5*ffffff 12*0
+ffffff 4*0 ffffff 5*0 ffffff 20*0 ffffff ffffff
+0 0 ffffff ffffff ffffff 0 0 0
+ffffff ffffff 0 0 0 6*ffffff 12*0 4*ffffff
+0 5*ffffff 4*0 ffffff 0 0 ffffff 0
+ffffff 13*0 ffffff ffffff 0 0 0 ffffff
+ffffff ffffff 5*0 ffffff 0 0 ffffff 0
+ffffff 26*0 ffffff 0 0 ffffff 0 ffffff
+26*0 ffffff 4*0 ffffff
+</a>
     </comp>
     <comp lib="0" loc="(530,70)" name="Probe">
       <a name="facing" val="west"/>
@@ -1246,21 +1315,15 @@ ffffff 26*0 ffffff 0 0 ffffff 0 ffffff
 26*0 ffffff 4*0 ffffff
 </a>
     </comp>
-    <comp lib="0" loc="(1210,70)" name="Probe">
+    <comp lib="0" loc="(1210,100)" name="Probe">
       <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
     </comp>
-    <comp lib="0" loc="(530,140)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="10signed"/>
-    </comp>
-    <comp lib="0" loc="(50,130)" name="Clock"/>
-    <comp lib="6" loc="(1010,41)" name="Text">
+    <comp lib="0" loc="(140,130)" name="Constant"/>
+    <comp lib="0" loc="(810,130)" name="Constant"/>
+    <comp lib="6" loc="(780,622)" name="Text">
       <a name="text" val="Other.jar"/>
       <a name="font" val="SansSerif bold 20"/>
-    </comp>
-    <comp lib="0" loc="(530,120)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="10unsigned"/>
     </comp>
     <comp lib="7" loc="(50,260)" name="ScreenColor">
       <a name="facing" val="south"/>
@@ -1270,100 +1333,37 @@ ffffff 26*0 ffffff 0 0 ffffff 0 ffffff
       <a name="color" val="#ffffff"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(70,70)" name="Probe">
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="5" loc="(50,160)" name="Button"/>
-    <comp lib="0" loc="(740,70)" name="Probe">
-      <a name="radix" val="16"/>
-    </comp>
     <comp lib="0" loc="(530,100)" name="Probe">
       <a name="facing" val="west"/>
       <a name="radix" val="16"/>
     </comp>
-    <comp lib="6" loc="(353,40)" name="Text">
-      <a name="text" val="other_chip8.circ"/>
-      <a name="font" val="SansSerif bold 20"/>
+    <comp lib="0" loc="(1210,70)" name="Probe">
+      <a name="facing" val="west"/>
     </comp>
-    <comp lib="4" loc="(920,70)" name="ROM">
-      <a name="addrWidth" val="12"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 12 24
-40 20 121*0 6*ffffff 26*0 ffffff 0 0
-ffffff 28*0 ffffff 0 0 ffffff 17*0 ffffff
-ffffff ffffff 8*0 ffffff 0 0 ffffff 16*0
-6*ffffff 7*0 ffffff ffffff 16*0 ffffff ffffff 0
-0 0 ffffff ffffff ffffff 23*0 ffffff ffffff
-6*0 ffffff ffffff 5*0 4*ffffff 12*0 ffffff ffffff
-8*0 ffffff ffffff 0 0 0 ffffff 4*0
-ffffff 11*0 ffffff 10*0 ffffff 0 0 0
-ffffff 4*0 ffffff 11*0 ffffff 10*0 ffffff 0
-0 0 ffffff 4*0 ffffff 0 0 6*ffffff
-0 0 0 ffffff 10*0 ffffff 4*0 ffffff
-0 0 ffffff 8*0 ffffff 0 0 0
-ffffff ffffff ffffff 6*0 ffffff ffffff ffffff 16*0
-ffffff 4*0 ffffff ffffff 6*0 ffffff ffffff 4*0
-ffffff 12*0 ffffff 18*0 ffffff 12*0 ffffff 0
-0 0 ffffff 10*0 ffffff 0 0 0
-6*ffffff 11*0 12*ffffff 0 0 0 ffffff 7*0
-5*ffffff 4*0 12*ffffff 0 0 0 ffffff 12*0
-ffffff 0 0 0 ffffff 4*0 ffffff 5*0
-ffffff 16*0 ffffff 8*0 ffffff 9*0 6*ffffff 7*0
-ffffff 8*0 ffffff 9*0 ffffff 0 0 ffffff
-4*0 5*ffffff 9*0 ffffff 9*0 ffffff 0 0
-ffffff 18*0 ffffff 9*0 ffffff 0 0 ffffff
-ffffff 0 0 0 6*ffffff 0 0 0
-ffffff 4*0 ffffff 5*0 ffffff 4*0 ffffff ffffff
-0 0 ffffff 0 0 ffffff 4*0 ffffff
-0 0 0 12*ffffff 11*0 ffffff 4*0 ffffff
-0 0 0 12*ffffff 4*0 4*ffffff 0 0
-0 ffffff 4*0 ffffff 0 0 0 ffffff
-10*0 ffffff 0 0 0 ffffff 4*0 ffffff
-0 0 0 4*ffffff 19*0 ffffff 4*0 ffffff
-11*0 ffffff 10*0 ffffff 0 0 0 ffffff
-4*0 ffffff 0 0 0 4*ffffff 4*0 12*ffffff
-4*0 4*ffffff 0 0 0 ffffff 4*0 ffffff
-0 0 0 12*ffffff 11*0 ffffff 4*0 ffffff
-0 0 0 ffffff 10*0 ffffff 0 0
-0 6*ffffff 0 0 ffffff 4*0 ffffff 18*0
-ffffff ffffff 7*0 4*ffffff 4*0 ffffff 10*0 ffffff
-5*0 ffffff ffffff 13*0 12*ffffff 7*0 ffffff ffffff
-0 0 ffffff ffffff 7*0 12*ffffff 0 0
-0 6*ffffff 4*0 ffffff ffffff 5*0 ffffff 4*0
-ffffff 5*0 ffffff 15*0 ffffff ffffff 0 0
-0 ffffff 4*0 ffffff 9*0 ffffff 4*0 ffffff
-4*0 ffffff ffffff 5*0 ffffff 4*0 ffffff 9*0
-6*ffffff 0 0 ffffff ffffff 7*0 ffffff ffffff
-0 0 ffffff ffffff 9*0 ffffff 4*0 ffffff
-12*0 4*ffffff 18*0 ffffff 4*0 ffffff 5*0 ffffff
-ffffff 12*0 4*ffffff 0 0 0 6*ffffff 18*0
-ffffff 4*0 ffffff 0 0 ffffff 4*0 ffffff
-8*0 ffffff ffffff 8*0 ffffff 4*0 ffffff 16*0
-ffffff ffffff 8*0 ffffff 0 0 0 ffffff
-ffffff 0 0 0 4*ffffff 9*0 ffffff ffffff
-9*0 5*ffffff 0 0 ffffff 4*0 ffffff 8*0
-ffffff ffffff 16*0 ffffff 4*0 ffffff 18*0 5*ffffff
-0 0 0 ffffff 4*0 ffffff 5*0 ffffff
-ffffff 0 0 0 ffffff ffffff ffffff 10*0
-ffffff 0 0 0 ffffff 0 0 ffffff
-5*0 4*ffffff 0 5*ffffff 9*0 ffffff 11*0 ffffff
-ffffff 0 0 ffffff ffffff ffffff 0 0
-0 ffffff ffffff 8*0 ffffff 11*0 ffffff 4*0
-ffffff 5*0 ffffff 0 0 0 5*ffffff 12*0
-ffffff 4*0 ffffff 5*0 ffffff 20*0 ffffff ffffff
-0 0 ffffff ffffff ffffff 0 0 0
-ffffff ffffff 0 0 0 6*ffffff 12*0 4*ffffff
-0 5*ffffff 4*0 ffffff 0 0 ffffff 0
-ffffff 13*0 ffffff ffffff 0 0 0 ffffff
-ffffff ffffff 5*0 ffffff 0 0 ffffff 0
-ffffff 26*0 ffffff 0 0 ffffff 0 ffffff
-26*0 ffffff 4*0 ffffff
-</a>
+    <comp lib="0" loc="(530,140)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="radix" val="10signed"/>
+    </comp>
+    <comp lib="0" loc="(530,120)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="9" loc="(320,70)" name="IGRB"/>
+    <comp lib="5" loc="(50,160)" name="Button"/>
+    <comp lib="7" loc="(730,260)" name="ScreenColor">
+      <a name="facing" val="south"/>
+      <a name="width_column" val="6"/>
+      <a name="width_row" val="5"/>
+      <a name="color" val="#ffffff"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(50,130)" name="Clock"/>
+    <comp lib="0" loc="(740,70)" name="Probe">
+      <a name="radix" val="16"/>
     </comp>
     <comp lib="7" loc="(970,90)" name="ImageRomScreen">
       <a name="width_row" val="6"/>
       <a name="width_column" val="5"/>
     </comp>
-    <comp lib="0" loc="(810,130)" name="Constant"/>
   </circuit>
 </project>
